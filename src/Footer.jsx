@@ -8,14 +8,14 @@ const Footer = () => {
           <p>
            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio blanditiis, beatae ab asperiores sapiente corrupti odit? Facilis ea hic dolore velit ex aliquid dolorum, nobis quo earum! Illum, culpa consequatur!
           </p>
-          <a href="#">Learn more <i class="ri-arrow-right-up-line"></i></a>
+          <a href="#">Learn more <i className="ri-arrow-right-up-line"></i></a>
         </div>
         <div className="box">
         <p>
            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio blanditiis, beatae ab asperiores sapiente corrupti odit? Facilis ea hic dolore velit ex aliquid dolorum, nobis quo earum! Illum, culpa consequatur!
           </p>
 
-          <a href="#">Learn more <i class="ri-arrow-right-up-line"></i></a>
+          <a href="#">Learn more <i className="ri-arrow-right-up-line"></i></a>
 
         </div>
         <div className="box">
@@ -24,7 +24,7 @@ const Footer = () => {
            
           </p>
       
-          <a href="#">Learn more <i class="ri-arrow-right-up-line"></i></a>
+          <a href="#">Learn more <i className="ri-arrow-right-up-line"></i></a>
 
         </div>
       </div>

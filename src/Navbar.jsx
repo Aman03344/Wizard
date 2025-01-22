@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="left-sec">
         <h1>
-          <i class="ri-shining-2-fill"></i>Wizard
+          <i className="ri-shining-2-fill"></i>Wizard
         </h1>
       </div>
 
@@ -18,7 +18,7 @@ const Navbar = () => {
           <li>Use cases</li>
           <li>Pricing</li>
           <li>Blog</li>
-          
+
 
           <li>
             <button>Request a quote</button>

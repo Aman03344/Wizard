@@ -3,7 +3,6 @@ import Cardimage from './assets/card1image.png'
 import Cardimage2 from './assets/cardimage2.png'
 import Cardimage3 from './assets/cardimage3.png'
 import Cardimage4 from './assets/cardimage4.png'
-import CircleArrow from './assets/circleArrow.svg'
 
 
 
@@ -16,7 +15,7 @@ const WhiteCard = () => {
           <h1>optimization</h1>
 
           <div className="learnSvg">
-              <h2><i class="ri-arrow-right-up-line"></i> Learn more</h2>
+              <h2><i className="ri-arrow-right-up-line"></i> Learn more</h2>
             </div>
         </div>
 
@@ -32,7 +31,7 @@ const WhiteCard = () => {
           <h1>advertising</h1>
 
           <div className="learnSvg">
-              <h2><i class="ri-arrow-right-up-line"></i> Learn more</h2>
+              <h2><i className="ri-arrow-right-up-line"></i> Learn more</h2>
             </div>
         </div>
 
@@ -46,7 +45,7 @@ const WhiteCard = () => {
           <h1>Marketing</h1>
 
           <div className="learnSvg">
-              <h2><i class="ri-arrow-right-up-line"></i> Learn more</h2>
+              <h2><i className="ri-arrow-right-up-line"></i> Learn more</h2>
             </div>
         </div>
 
@@ -60,7 +59,7 @@ const WhiteCard = () => {
           <h1>Marketing</h1>
 
           <div className="learnSvg">
-                   <h2><i class="ri-arrow-right-up-line"></i> Learn more</h2>
+                   <h2><i className="ri-arrow-right-up-line"></i> Learn more</h2>
             </div>
         </div>
 
