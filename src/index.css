@@ -1,0 +1,683 @@
+
+
+@font-face {
+  font-family: korea;
+  src: url(./assets/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2);
+}
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  font-family: korea;
+}
+
+body{
+  background-color: white;
+}
+.navbar{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  padding: 15px;
+}
+
+.left-sec{
+  width: 40%;
+  height: auto;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.left-sec h1 i{
+  display: inline-block;
+  rotate: 45deg;
+}
+
+.left-sec h1 {
+  font-size: 50px;
+}
+
+.right-sec{
+  width: 60%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+ul li{
+  cursor: pointer;
+  font-size: 18px;
+}
+
+ul li button{
+  width: 190px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: all 0.3s 0.2s ease;
+
+}
+
+ul li button:hover{
+  background-color: greenyellow;
+  color: black;
+  border: 1px solid black;
+
+}
+
+/* Hero Section start */
+
+.heroSection{
+  width: 100%;
+  height:84vh;
+  display: flex;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.mainleft{
+  width: 45%;
+  height: 100%;
+}
+
+.mainleft h1{
+  width: 100%;
+  margin-top: 40px;
+  font-size: 60px;
+  line-height: 1.1;
+  
+}
+
+.mainleft p{
+  line-height: 1.2;
+  font-size: 17px;
+  margin-block: 15px;
+}
+
+.mainleft button{
+  width: 200px;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s 0.2s ease;
+}
+
+.mainleft button:hover{
+  background-color: greenyellow;
+  color: black;
+  border: 1px solid black;
+
+}
+
+.mainright{
+  width: 55%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainright img{
+  width: 70%;
+}
+
+/* Company logos  */
+
+.ComLogos-con{
+  width: 100%;
+  height: auto;
+}
+
+.ComLogos{
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: larger;
+  color: rgba(29, 29, 29, 0.356);
+}
+
+.servicesCon{
+  width: 100%;
+  height: auto;
+  padding: 15px;
+}
+
+.servicesCon h1{
+  height: 100%;
+  display: inline-block;
+  background-color: #B9FF66;
+  font-size: 40px;
+  padding: 2px;
+  margin-left: 30px;
+
+}
+
+.servicesCon span{
+  width: 20%;
+  height: auto;
+  margin-left: 20px;
+}
+
+
+/* card section */
+
+.cardCon{
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-block: 50px;
+
+}
+
+.whiteCard{
+  width: 47%;
+  height: 325px;
+  background-color: #B9FF66;
+  border-radius: 35px;
+  margin-top: 35px;
+  border: 2px solid black;
+  box-shadow:0px 7px 0 0;
+  display: flex;
+  padding: 20px;
+
+}
+
+.whiteCard:nth-child(1){
+  background-color: #F3F3F3;
+}
+
+
+
+.whiteCard:nth-child(3){
+  background-color: #191A23;
+}
+
+.whiteCard:last-child{
+  background-color: #F3F3F3;
+
+}
+
+.Cardright{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.Cardleft1{
+  width: 45%;
+  height: auto;
+  padding: 5px;
+
+
+}
+
+.Cardleft1 h1{
+  font-size: 35px;
+  display: inline-block;
+  border-radius: 7px;
+  padding: 4px;
+  background-color: #B9FF66;
+}
+
+.Cardleft1 h2{
+  cursor: pointer;
+  
+}
+
+.Cardleft2 h2{
+  cursor: pointer;
+  
+}
+.Cardleft3 h2{
+  color: white;
+  cursor: pointer;
+}
+
+.Cardleft4 h2{
+  cursor: pointer;
+  
+}
+
+
+
+.learnSvg{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.Cardleft2{
+  width: 45%;
+  height: auto;
+  padding: 5px;
+}
+
+.Cardleft2 h1{
+  font-size: 35px;
+  display: inline-block;
+  border-radius: 7px;
+  padding: 4px;
+  background-color: white;
+}
+
+.Cardleft3{
+  width: 45%;
+  height: auto;
+  padding: 5px;
+}
+
+.Cardleft3 h1{
+  font-size: 35px;
+  display: inline-block;
+  border-radius: 7px;
+  padding: 4px;
+  background-color: white;
+}
+
+.Cardleft4{
+  width: 45%;
+  height: auto;
+  padding: 5px;
+}
+
+.Cardleft4 h1{
+  font-size: 35px;
+  display: inline-block;
+  border-radius: 7px;
+  padding: 4px;
+  background-color: #B9FF66;
+}
+
+.Cardright1{
+
+  width: 55%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.Cardright2{
+
+  width: 55%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.Cardright3{
+
+  width: 55%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.Cardright4{
+
+  width: 55%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.Cardright1 img{
+  width: 90%;
+}
+
+.Cardright2 img{
+  width: 90%;
+}
+
+.Cardright3 img{
+  width: 90%;
+}
+
+.Cardright4 img{
+  width: 90%;
+}
+
+
+
+
+/* thinghappen card */
+
+.thingsCard-con{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  padding-block: 20px;
+  
+}
+
+.thingCard{
+  width: 95%;
+  height: auto;
+  display: flex;
+  background-color: #d2d2d263;
+  border-radius: 30px;
+}
+
+
+.thingCardLeft{
+  width: 45%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40px;
+}
+
+
+.thingCardLeft h1{
+  font-size: 50px;
+}
+
+.thingCardLeft p{
+  font-size: 15px;
+  margin-block: 15px;
+}
+
+.thingCardLeft button{
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+
+
+.thingCardRight{
+  width: 55%;
+  height: auto;
+  padding: 15px;text-align: center;
+}
+
+.thingCardRight img{
+  width: 55%;
+}
+
+/*  footer  */
+
+.footer-con{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 40px;
+
+}
+
+.footer{
+  width: 95%;
+  height: 300px;
+  color: white;
+  background-color: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.footer .box:nth-child(2){
+  border-left: 1px solid  #e0e0e076;
+  border-right: 1px solid  #e0e0e076;
+}
+
+
+.box{
+  height: 200px;
+  display: flex;
+  align-items:start;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.box p{
+  font-weight: 300;
+  line-height: 1.6;
+  font-size: 15px;
+
+}
+
+
+.box a{
+  color: #B9FF66;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+
+@media (max-width: 480px) {
+  .navbar {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .left-sec {
+    width: 100%;
+    padding-left: 8%;
+    justify-content: start;
+    text-align: center;
+  }
+
+  .right-sec {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  ul {
+   
+    display: none;
+  }
+
+
+
+  ul li button {
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .heroSection {
+    flex-direction: column;
+    height: auto;
+    margin-top: 10px;
+    padding-left: 30px;
+    
+  }
+
+  .mainleft {
+    width: 100%;
+  }
+
+  .mainleft h1 {
+    font-size: 40px;
+  }
+
+  .mainleft p {
+    font-size: 15px;
+  }
+
+  .mainleft button {
+    width: 180px;
+    height: 40px;
+  }
+
+  .mainright {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .mainright img {
+    width: 80%;
+  }
+
+  .ComLogos {
+
+    display: none;
+  }
+
+  .servicesCon {
+      padding: 20px;
+  }
+
+
+  .servicesCon h1 {
+    font-size: 30px;
+  }
+
+  .cardCon {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .whiteCard {
+    width: 95%;
+    height: auto;
+    flex-direction: column;
+    margin-top: 20px;
+    height: auto;
+  }
+
+ .learnSvg{
+  width: 100%;
+  height: auto;
+ }
+
+
+
+  .Cardright1{
+    width: 100%;
+    height: auto;
+  }
+
+  .Cardright2{
+    width: 100%;
+    height: auto;
+  }
+
+  .Cardright3{
+    width: 100%;
+    height: auto;
+  }
+
+  .Cardright4{
+    width: 100%;
+    height: auto;
+  }
+
+  .thingsCard-con {
+    height: auto;
+    padding: 10px;
+  }
+
+  .thingCard {
+    flex-direction: column;
+  }
+
+  .thingCardLeft {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .thingCardLeft h1 {
+    font-size: 30px;
+  }
+
+  .thingCardLeft p {
+    font-size: 14px;
+  }
+
+  .thingCardLeft button {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .thingCardRight {
+    width: 100%;
+    text-align: center;
+  }
+
+  .thingCardRight img {
+    width: 70%;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .box {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .box p{
+    width: 100%;
+  }
+
+  .footer .box:nth-child(2){
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid  #e0e0e00e;
+    border-bottom: 1px solid  #e0e0e00e;
+
+  }
+  
+
+ 
+}
