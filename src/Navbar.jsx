@@ -18,6 +18,7 @@ const Navbar = () => {
           <li>Use cases</li>
           <li>Pricing</li>
           <li>Blog</li>
+          
 
           <li>
             <button>Request a quote</button>
